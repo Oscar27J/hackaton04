@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.cuadrado-rojo {
+    width: 480px;
+    height: 553px;
+    background-color: #cc3843;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 70px;
+
+
+    position: relative;
+}
+
+.cuadrado-azul {
+    width: 654px;
+    height: 479px;
+    background-color: #0c1f2c;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
+
+.logo {
+    height: 479px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+
+.casco {
+    position: absolute;
+    margin-left: -160px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.titulo {
+    padding-left: 240px;
+    padding-right: 150px;
+    padding-top: 40px;
+    color: white;
+    font-size: 35px;
+}
+
+.precio {
+    padding-left: 240px;
+    padding-right: 150px;
+    padding-top: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.tamaño {
+    padding-left: 240px;
+    padding-right: 150px;
+    padding-top: 60px;
+    color: white;
+    font-size: 15px;
+}
+
+.talla {
+    display: flex;
+    width: 200px;
+    color: white;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+.itemTalla {
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border-radius: 50px;
+    border: solid thin rgba(255, 255, 255, 0);
+    align-items: center;
+    margin-right: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.is-active {
+    border: 1px solid red;
+}
+
+button {
+    height: 48px;
+    margin-left: 240px;
+    margin-top: 20px;
+    padding: 0 24px;
+    border: 1px solid #0c1f2c;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #cc3843;
+
+}
